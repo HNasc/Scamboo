@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Scamboo|Login</title>
+    </head>
+    <body>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <h1 align="center">Scamboo - Login</h1>
+
+                <h3 align="center">Faça o login ou crie uma conta no Scamboo</h3>
+
+            <div class="container">
+                <fieldset>
+                    <legend>Acessar minha conta</legend>
+                    <form method="POST" action="cadastro.php" id="formCadastroUsuario" data-toggle="validator" role="form">
+
+                         <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+                        </div>
+                        
+                        <div class="checkbox">
+                            <label>
+                            <input type="checkbox"> Mantenha-me logado
+                            </label>
+                        </div>
+                        <div>
+                            <label> <a href="#">Esqueci minha senha</a> </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </form>
+                </fieldset>
+        </div>
+    </body>
+</html>
